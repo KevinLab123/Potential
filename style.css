@@ -1,0 +1,52 @@
+.card {
+    /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto; /* Centra la tarjeta horizontalmente */
+    width: 90%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px; /* Ajusta el alto de la tarjeta según sea necesario */
+}
+
+
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+/* Alinea el precio, el texto y el botón a la izquierda y al fondo */
+
+.card-body p.fw-bold,
+.card-body a.btn {
+    margin: 0;
+    align-self: flex-end;
+}
+
+.card-body p.text-primary{
+    margin: 5px;
+    align-self: flex-start;
+}
+
+.inline-margin {
+    margin-right: 25px;
+}
+
+.border-radius {
+    border-radius: 10px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.me-3 {
+    margin-right: 1rem; /* Ajusta el margen derecho según sea necesario */
+}
+
+.ms-3 {
+    margin-right: 130px; /* Ajusta el margen izquierdo según sea necesario */
+}
