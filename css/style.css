@@ -50,3 +50,13 @@
 .ms-3 {
     margin-right: 130px; /* Ajusta el margen izquierdo según sea necesario */
 }
+
+.btn-lg {
+    margin-right: 5%;
+    height: 10%;
+    width: 30%;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
