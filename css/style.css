@@ -1,7 +1,17 @@
+body {
+    background: linear-gradient(to bottom, #a8e6cf, #dcedc1); /* Gradiente de verde menta a celeste */
+     /* Ajusta el color del texto para asegurar buena legibilidad */
+}
+
 .card {
     /* Ajusta el ancho máximo según sea necesario */
     margin: 0 auto; /* Centra la tarjeta horizontalmente */
     width: 90%;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombreado al pasar el mouse */
 }
 
 .card-body {
